@@ -15,6 +15,8 @@ Bundle 'jwhitley/vim-matchit'
 Bundle 'SirVer/ultisnips'
 Bundle 'wincent/Command-T'
 
+call vundle#end()
+
 filetype plugin indent on
 
 set cindent
