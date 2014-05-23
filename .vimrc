@@ -3,8 +3,8 @@ set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 
 filetype off
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 "git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ":PluginInstall
