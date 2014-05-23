@@ -6,6 +6,9 @@ filetype off
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 
+"git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+":PluginInstall
+
 Bundle 'gmarik/vundle'
 
 Bundle 'jwhitley/vim-matchit'
