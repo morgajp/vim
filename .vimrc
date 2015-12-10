@@ -55,3 +55,10 @@ iab _log #if DEBUG_ON<CR><TAB>logMsg(<CR>#endif<UP><END>
 
 set is
 set hls
+
+let mapleader = "\<Space>"
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q<CR>
+set pastetoggle=<F2>
+
+set colorcolumn=80
