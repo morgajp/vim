@@ -14,6 +14,7 @@ Bundle 'gmarik/vundle'
 Bundle 'jwhitley/vim-matchit'
 Bundle 'SirVer/ultisnips'
 Bundle 'wincent/Command-T'
+Plugin 'klen/python-mode'
 
 call vundle#end()
 
@@ -62,3 +63,12 @@ nnoremap <Leader>q :q<CR>
 set pastetoggle=<F2>
 
 set colorcolumn=80
+
+" :help pymode
+" zc/zo open close folds
+" c-space autocomplete
+" K - show docs
+let g:pymode_rope_completion = 1
+let g:pymode_rope_complete_on_dot = 1
+let g:pymode_rope_autoimport = 1 
+let g:pymode_folding = 0
