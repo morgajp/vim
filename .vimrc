@@ -72,3 +72,4 @@ let g:pymode_rope_completion = 1
 let g:pymode_rope_complete_on_dot = 1
 let g:pymode_rope_autoimport = 1 
 let g:pymode_folding = 0
+let g:pymode_virtualenv = 0
