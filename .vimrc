@@ -30,6 +30,7 @@ set mouse-=a
 set guioptions-=m
 set guioptions-=T
 set guioptions-=r
+set wrap
 
 set nu
 colo evening
