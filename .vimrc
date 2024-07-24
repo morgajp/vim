@@ -1,23 +1,5 @@
 set nocompatible
 
-source $VIMRUNTIME/vimrc_example.vim
-
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-"git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-":PluginInstall
-
-Bundle 'gmarik/vundle'
-
-Bundle 'jwhitley/vim-matchit'
-Bundle 'SirVer/ultisnips'
-Bundle 'wincent/Command-T'
-Plugin 'klen/python-mode'
-
-call vundle#end()
-
 filetype plugin indent on
 
 set cindent
